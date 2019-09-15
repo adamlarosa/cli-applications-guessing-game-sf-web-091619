@@ -8,7 +8,7 @@ def run_guessing_game
   guess = gets.chomp
   
   if guess == number
-    puts "You guessed the correct number!"\
+    puts "You guessed the correct number!"
     binding.pry
   elsif guess == "exit"
     puts "Goodbye!"

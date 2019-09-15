@@ -8,7 +8,7 @@ def run_guessing_game
   guess = gets.chomp
   
   if guess == "exit"
-    puts "Goodybe!"
+    puts "Goodbye!"
     
   end
 end

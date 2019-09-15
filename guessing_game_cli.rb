@@ -16,4 +16,5 @@ def run_guessing_game
   if guess != number
     print "Sorry! The computer guessed #{number}."
   end
+  binding.pry
 end

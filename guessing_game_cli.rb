@@ -9,10 +9,10 @@ def run_guessing_game
   
   if guess == number
     puts "You guessed the correct number!"
-    binding.pry
-  elsif guess == "exit"
+  if guess == "exit"
     puts "Goodbye!"
-  else 
+  end
+  if guess != number
     print "Sorry! The computer guessed #{number}."
   end
 end
